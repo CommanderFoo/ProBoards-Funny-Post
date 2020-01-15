@@ -1,0 +1,31 @@
+.funny-post-container {
+
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	margin-right: 10px;
+
+}
+
+.funny-post-button {
+
+	transition: all .6s ease-in-out;
+	vertical-align: middle;
+	margin-left: 10px;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+
+}
+
+.funny-post-button:hover {
+
+	transform: scale(1.3, 1.3);
+
+}
+
+.post.item .content {
+
+	position: relative;
+
+}
