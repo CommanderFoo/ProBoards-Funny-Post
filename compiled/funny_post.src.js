@@ -247,7 +247,7 @@ class Funny_Post {
 		}
 
 		let count = yootil.key.value(Funny_Post.PLUGIN_USER_KEY, post_created_by) || 0;
-		let html = "<span class='funny-post-count'>Funny Posts: <span>" + count + "</span></span><br />";
+		let html = "<span class='funny-post-count'>" + Funny_Post.SETTINGS.mini_profile + "<span>" + count + "</span></span><br />";
 
 		$elem.html(html);
 
